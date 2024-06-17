@@ -1,0 +1,16 @@
+
+
+{
+  "compilerOptions": {
+    "target": "ES6",             // Specify the JavaScript language version (ES6 or higher)
+    "module": "ESNext",          // Specify the module system (ESNext for modern modules)
+    "baseUrl": "src",          // Set the base URL for module resolution
+    "paths": {
+      "@/*": ["*"]               // Define path aliases for imports (e.g., "@/components")
+    }
+  },
+  "include": [
+    "src/**/*.js",              // Include all JavaScript files in the 'src' directory
+    "src/**/*.jsx"              // Include all JSX files in the 'src' directory
+  ]
+}
