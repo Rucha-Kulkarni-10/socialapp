@@ -11,11 +11,11 @@ export default defineConfig({
     },
   },
   optimizeDeps: {
-    exclude: ['chunk-REFQX4J5'],  // Replace with the actual package causing the issue if known
+    exclude: ['chunk-REFQX4J5'],  
   },
   build: {
     rollupOptions: {
-      input: '/src/main.jsx',  // Ensure this points to your main.jsx file
+      input: '/src/main.jsx',  
     },
   },
 
